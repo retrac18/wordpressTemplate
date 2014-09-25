@@ -1,4 +1,0 @@
-carterphotographs
-=================
-
-Carter Photographs
