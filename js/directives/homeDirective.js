@@ -2,6 +2,6 @@
 
 app.directive( 'homeDirective', function () {
 	return {
-		templateUrl : 'partials/templates/home.tpl.html'
+		templateUrl : 'partials/tpl/home.tpl.html'
 	};
 } );
