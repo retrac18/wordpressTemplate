@@ -1,53 +1,43 @@
 <!DOCTYPE>
 
-<html ng-app="">
+<html ng-app="myApp">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Artistic works by Carter</title>
-<meta name="keywords" content="Carter Photographs, Cebu Photographer, Wedding Photographer" />
-<meta name="description" content="" />
-<link rel = "stylesheet" href="css/bootstrap.css" />
-<link href="http://fonts.googleapis.com/css?family=Raleway:400,200,500,600,700,800,300" rel="stylesheet" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-<!--[if IE 6]>
-<link href="default_ie6.css" rel="stylesheet" type="text/css" />
-<![endif]-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Artistic works by Carter</title>
+	<meta name="keywords" content="Carter Photographs, Cebu Photographer, Wedding Photographer" />
+	<meta name="description" content="" />
+	<link rel = "stylesheet" href="css/bootstrap.css" />
+	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
 <div id="wrapper">
 	<div id="menu-wrapper">
 		<div id="menu" class="container">
 			<ul>
-				<li class="current_page_item"><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#/Aboutus">About</a></li>
+				<li><a href="#/Portfolio">Portfolio</a></li>
+				<li><a href="#/Contactus">Contact</a></li>
 			</ul>
 		</div>
 		<!-- end #menu -->
 	</div>
-	<!-- <div id="banner"></div> -->
-	<!-- <div id="page" class="container" ng-view></div> -->
-	<div id="page" class="container">
-		<div id="content">
-			<div class="title">
-				<h2>Lorem Ipsum</h2>
-				<span class="byline">Phasellus nec erat sit amet nibh pellentesque congue</span> </div>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-		</div>
-		<!-- <div id="sidebar">
-			<div class="box2">
-				<div class="title">
-					<h2>Integer gravida</h2>
-				</div>
-				<ul class="style2">
-					<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-				</ul>
-			</div>
-		</div>
-	</div> -->
 </div>
+<div id="page" class="container" ng-view></div>
+
+<div id="copyright" class="container">
+	<ul class="contact">
+		<li><a href="http://twitter.com/carterbinarao" class="icon icon-twitter" target="_blank"><span>Twitter</span></a></li>
+		<li><a href="http://www.facebook.com/CarterPhotographs" class="icon icon-facebook" target="_blank"><span>Facebook</span></a></li>
+		<li><a href="https://www.flickr.com/photos/92576033@N04/" class="icon icon-flickr" target="_blank"><span>Flickr</span></a></li>
+		<li><a href="#" class="icon icon-tumblr" target="_blank"><span>Tumblr</span></a></li>
+		<li><a href="#" class="icon icon-rss" target="_blank"><span>Pinterest</span></a></li>
+	</ul>
+	<p>&copy; Carter Binarao. All rights reserved. | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+
+
 	<script src="lib/angular.js"></script>
     <script src="lib/angular-route.js"></script>
 	<script>
@@ -59,16 +49,5 @@
 		ga('create', 'UA-56317522-1', 'auto');
 		ga('send', 'pageview');
 	</script>
-
-<div id="copyright" class="container">
-	<ul class="contact">
-		<li><a href="http://twitter.com/carterbinarao" class="icon icon-twitter" target="_blank"><span>Twitter</span></a></li>
-		<li><a href="http://www.facebook.com/CarterPhotographs" class="icon icon-facebook" target="_blank"><span>Facebook</span></a></li>
-		<li><a href="https://www.flickr.com/photos/92576033@N04/" class="icon icon-flickr" target="_blank"></a></li>
-		<li><a href="#" class="icon icon-tumblr" target="_blank"><span>Tumblr</span></a></li>
-		<li><a href="#" class="icon icon-rss" target="_blank"><span>Pinterest</span></a></li>
-	</ul>
-	<p>&copy; Carter Binarao. All rights reserved. | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
-</div>
 </body>
 </html>
